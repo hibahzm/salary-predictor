@@ -349,7 +349,7 @@ def render_insight_card(insight: dict) -> None:
 
 
 # ── Header + Nav ──────────────────────────────────────────────────────────────
-st.markdown("## 💰 Data Science Salary Predictor")
+st.markdown("## 💰 Salary Predictor")
 st.caption("Live predictions · Personalized AI insights · Random Forest model")
 st.write("")
 
