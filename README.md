@@ -1,27 +1,27 @@
-# 💰 Salary Prediction & Insights Platform
+# Salary Prediction & Insights Platform
 
 An end-to-end **machine learning + LLM-powered analytics system** that predicts salaries for data science professionals and generates intelligent, narrative-driven career insights.
 
 ---
 
-## 🚀 Overview
+## Overview
 
 This project combines:
 
-* 🤖 Machine Learning model (Random Forest)
-* 🧠 LLM-powered insights (GPT-based system)
-* 📊 Interactive Streamlit dashboard
-* ⚡ FastAPI backend for real-time predictions
-* ☁️ Supabase for data storage and analytics
-* 📈 Precomputed insights for fast, scalable storytelling
+* Machine Learning model (Random Forest)
+* LLM-powered insights (GPT-based system)
+* Interactive Streamlit dashboard
+* FastAPI backend for real-time predictions
+* Supabase for data storage and analytics
+* Precomputed insights for fast, scalable storytelling
 
 Instead of generating insights on-demand, the system builds a **library of intelligent insights once**, then dynamically assembles them per user.
 
 ---
 
-## 🧠 Key Features
+## Key Features
 
-### 💵 Salary Prediction
+### Salary Prediction
 
 * Predicts annual salary based on:
 
@@ -34,7 +34,7 @@ Instead of generating insights on-demand, the system builds a **library of intel
 
 ---
 
-### 🧠 AI-Powered Insights (GPT-based)
+### AI-Powered Insights (GPT-based)
 
 * Uses **OpenAI GPT models** for generation
 * Generates structured JSON insights
@@ -53,7 +53,7 @@ Instead of generating insights on-demand, the system builds a **library of intel
 
 ---
 
-### 📊 Streamlit Dashboard
+### Streamlit Dashboard
 
 * Interactive UI for:
 
@@ -65,7 +65,7 @@ Instead of generating insights on-demand, the system builds a **library of intel
 
 ---
 
-### ☁️ Data Layer (Supabase)
+### Data Layer (Supabase)
 
 Two main tables:
 
@@ -78,7 +78,7 @@ Two main tables:
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ```
 LOCAL MACHINE
@@ -115,7 +115,7 @@ Vercel
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 salary-predictor/
@@ -154,7 +154,7 @@ salary-predictor/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### 1️⃣ Clone Project
 
@@ -199,7 +199,7 @@ OPENAI_API_KEY=your_openai_api_key
 
 ---
 
-## 🧠 Pipeline Execution
+## Pipeline Execution
 
 Run full pipeline:
 
@@ -215,7 +215,7 @@ This will:
 
 ---
 
-## 🚀 Run Locally
+## Run Locally
 
 ### Start FastAPI
 
@@ -245,7 +245,7 @@ http://localhost:8501
 
 ---
 
-## ☁️ Deployment
+## Deployment
 
 ### Vercel (FastAPI)
 
@@ -265,18 +265,18 @@ API_URL="https://your-api.vercel.app"
 
 ---
 
-## 🧠 Design Philosophy
+## Design Philosophy
 
-* ❌ No real-time LLM calls in dashboard
-* ✅ Precompute insights once
-* ⚡ Fast UI response
-* 📦 Modular pipeline architecture
-* 🧠 GPT used only for structured intelligence generation
-* 📊 Supabase acts as the single source of truth
+* No real-time LLM calls in dashboard
+* Precompute insights once
+* Fast UI response
+* Modular pipeline architecture
+* GPT used only for structured intelligence generation
+* Supabase acts as the single source of truth
 
 ---
 
-## 🔥 Example Insights
+## Example Insights
 
 * Entry-level engineers see the biggest jump when moving to ML roles
 * North America pays ~2x more than most regions
@@ -285,7 +285,7 @@ API_URL="https://your-api.vercel.app"
 
 ---
 
-## 🧪 Tech Stack
+## Tech Stack
 
 * Python
 * FastAPI
@@ -298,7 +298,7 @@ API_URL="https://your-api.vercel.app"
 
 ---
 
-## 📌 Notes
+## Notes
 
 * Model + encoders saved in `/model/saved`
 * Insights generated once and reused
@@ -306,7 +306,7 @@ API_URL="https://your-api.vercel.app"
 
 ---
 
-## 🏁 Status
+## Status
 
 ✔ MVP Complete
 ✔ Pipeline Working
@@ -316,7 +316,7 @@ API_URL="https://your-api.vercel.app"
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 Built as a full-stack AI/ML portfolio project combining:
 
